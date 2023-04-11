@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "companyLogo": "https://example.com/logo1.png",
+        "companyLogo": "https://i.ibb.co/Fq77c4s/netflix-4-1.png",
         "jobTitle": "Software Engineer",
         "companyName": "ABC Corporation",
         "remoteOrOnsite": "Remote",
@@ -19,7 +19,7 @@
     },
     {
         "id": "2",
-        "companyLogo": "https://example.com/logo2.png",
+        "companyLogo": "https://i.ibb.co/GkTnTtm/google-1-1-1-1.png",
         "jobTitle": "Data Analyst",
         "companyName": "DEF Industries",
         "remoteOrOnsite": "Onsite",
@@ -37,7 +37,7 @@
     },
     {
         "id": "3",
-        "companyLogo": "https://example.com/logo3.png",
+        "companyLogo": "https://i.ibb.co/9TWLM9f/tesla-9-1.png",
         "jobTitle": "Marketing Manager",
         "companyName": "GHI Enterprises",
         "remoteOrOnsite": "Onsite",
@@ -55,7 +55,7 @@
     },
     {
         "id": "4",
-        "companyLogo": "https://example.com/logo4.png",
+        "companyLogo": "https://i.ibb.co/GkTnTtm/google-1-1-1-1.png",
         "jobTitle": "UI/UX Designer",
         "companyName": "JKL Agency",
         "remoteOrOnsite": "Remote",
@@ -73,7 +73,7 @@
     },
     {
         "id": "5",
-        "companyLogo": "https://example.com/logo5.png",
+        "companyLogo": "https://i.ibb.co/fSCVm41/google-1-1-1.png",
         "jobTitle": "Sales Representative",
         "companyName": "MNO Sales",
         "remoteOrOnsite": "Onsite",
@@ -91,7 +91,7 @@
     },
     {
         "id": "6",
-        "companyLogo": "https://example.com/logo6.png",
+        "companyLogo": "https://i.ibb.co/9TWLM9f/tesla-9-1.png",
         "jobTitle": "Accountant",
         "companyName": "PQR Accounting",
         "remoteOrOnsite": "Remote",
@@ -108,3 +108,6 @@
         }
     }
 ]
+
+
+

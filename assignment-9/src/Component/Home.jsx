@@ -4,19 +4,17 @@ import Catagory from "./Catagory";
 import FeaturedJob from "./FeaturedJob";
 
 const Home = () => {
-    const [featuredData, setFeaturedData] = useState([]);
-    useEffect(() => {
-        const fetchFeaturedData = async () => {
-          const response = await fetch('JobFeature.json');
-          const data = await response.json();
-          setFeaturedData(data);
-          console.log(featuredData);
-        };
-        fetchFeaturedData().catch((error) => {
-          console.error(error);
-        });
-      }, []);
-console.log(featuredData);
+  const [featuredData, setFeaturedData] = useState([]);
+  useEffect(() => {
+    const fetchFeaturedData = async () => {
+      const response = await fetch("JobFeature.json");
+      const data = await response.json();
+      setFeaturedData(data);
+    };
+    fetchFeaturedData().catch((error) => {
+      console.error(error);
+    });
+  }, []);
   const catagory = useLoaderData();
   return (
     <div>
@@ -56,15 +54,17 @@ console.log(featuredData);
               Explore thousands of job opportunities with all the information
               you need. Its your future
             </small>
-                  </div>
-                  <div>
-                      {
-                          featuredData.map(feature => <FeaturedJob
-                              key={feature.id}
-                          feature={feature}
-                          ></FeaturedJob>)
-                      }
-                  </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-5">
+            {featuredData.map((feature) => (
+              <FeaturedJob key={feature.id} feature={feature}></FeaturedJob>
+            ))}
+          </div>
+          <div className="text-center mt-7">
+            <button className="rounded text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-3 py-2 text-center mx-auto font-semibold">
+              See All Jobs
+            </button>
+          </div>
         </div>
       </div>
     </div>
