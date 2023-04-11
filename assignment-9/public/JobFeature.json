@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "companyLogo": "https://example.com/logo1.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "ABC Corporation",
+        "remoteOrOnsite": "Remote",
+        "location": "San Francisco",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team and help build innovative software products.",
+        "jobResponsibility": "Responsibilities include designing and developing software, writing and maintaining code, and collaborating with cross-functional teams.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+        "experiences": "5+ years of experience in software development",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@abccorp.com"
+        }
+    },
+    {
+        "id": "2",
+        "companyLogo": "https://example.com/logo2.png",
+        "jobTitle": "Data Analyst",
+        "companyName": "DEF Industries",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York City",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a data analyst to join our team and provide insights that drive business decisions.",
+        "jobResponsibility": "Responsibilities include collecting and analyzing data, creating reports and visualizations, and communicating findings to stakeholders.",
+        "educationalRequirements": "Bachelor's degree in Data Science, Statistics, or a related field",
+        "experiences": "3+ years of experience in data analysis",
+        "contactInformation": {
+            "phone": "777-777-7777",
+            "email": "jobs@defindustries.com"
+        }
+    },
+    {
+        "id": "3",
+        "companyLogo": "https://example.com/logo3.png",
+        "jobTitle": "Marketing Manager",
+        "companyName": "GHI Enterprises",
+        "remoteOrOnsite": "Onsite",
+        "location": "Chicago",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "We are looking for a marketing manager to lead our marketing initiatives and help us achieve our business goals.",
+        "jobResponsibility": "Responsibilities include developing and implementing marketing strategies, managing campaigns, and analyzing results.",
+        "educationalRequirements": "Bachelor's degree in Marketing or a related field",
+        "experiences": "5+ years of experience in marketing",
+        "contactInformation": {
+            "phone": "999-999-9999",
+            "email": "jobs@ghienterprises.com"
+        }
+    },
+    {
+        "id": "4",
+        "companyLogo": "https://example.com/logo4.png",
+        "jobTitle": "UI/UX Designer",
+        "companyName": "JKL Agency",
+        "remoteOrOnsite": "Remote",
+        "location": "Austin",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "jobDescription": "We are seeking a talented UI/UX designer to create amazing user experiences.",
+        "jobResponsibility": "Responsibilities include designing user interfaces, conducting user research, and creating wireframes and prototypes.",
+        "educationalRequirements": "Bachelor's degree in Design, Human-Computer Interaction, or a related field",
+        "experiences": "3+ years of experience in UI/UX design",
+        "contactInformation": {
+            "phone": "888-888-8888",
+            "email": "jobs@jklagency.com"
+        }
+    },
+    {
+        "id": "5",
+        "companyLogo": "https://example.com/logo5.png",
+        "jobTitle": "Sales Representative",
+        "companyName": "MNO Sales",
+        "remoteOrOnsite": "Onsite",
+        "location": "Miami",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$60,000 - $80,000",
+        "jobDescription": "We are seeking a sales representative to join our team and help us grow our business.",
+        "jobResponsibility": "Responsibilities include identifying and contacting potential customers, negotiating contracts, and achieving sales targets.",
+        "educationalRequirements": "Bachelor's degree in Business Administration or a related field",
+        "experiences": "2+ years of experience in sales",
+        "contactInformation": {
+            "phone": "444-444-4444",
+            "email": "jobs@mno-sales.com"
+        }
+    },
+    {
+        "id": "6",
+        "companyLogo": "https://example.com/logo6.png",
+        "jobTitle": "Accountant",
+        "companyName": "PQR Accounting",
+        "remoteOrOnsite": "Remote",
+        "location": "Los Angeles",
+        "fulltimeOrPartTime": "Part-time",
+        "salary": "$30 - $40 per hour",
+        "jobDescription": "We are looking for an accountant to handle our day-to-day accounting and financial reporting.",
+        "jobResponsibility": "Responsibilities include maintaining financial records, preparing and filing tax returns, and analyzing financial data.",
+        "educationalRequirements": "Bachelor's degree in Accounting or a related field",
+        "experiences": "3+ years of experience in accounting",
+        "contactInformation": {
+            "phone": "333-333-3333",
+            "email": "jobs@pqracct.com"
+        }
+    }
+]
