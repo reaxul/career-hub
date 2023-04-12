@@ -5,16 +5,29 @@ import FeaturedJob from "./FeaturedJob";
 
 const Home = () => {
   const [featuredData, setFeaturedData] = useState([]);
+  const [showAll, setShowAll] = useState(false);
   useEffect(() => {
     const fetchFeaturedData = async () => {
       const response = await fetch("JobFeature.json");
       const data = await response.json();
-      setFeaturedData(data);
+      setFeaturedData(data.splice(0, 4));
     };
     fetchFeaturedData().catch((error) => {
       console.error(error);
     });
   }, []);
+
+  const handleShowAll = () => {
+    const fetchAllData = async () => {
+      const response = await fetch("JobFeature.json");
+      const data = await response.json();
+      setFeaturedData(data);
+    };
+    fetchAllData().catch((error) => {
+      console.error(error);
+    });
+    setShowAll(true);
+  };
   const catagory = useLoaderData();
   return (
     <div>
@@ -60,11 +73,16 @@ const Home = () => {
               <FeaturedJob key={feature.id} feature={feature}></FeaturedJob>
             ))}
           </div>
-          <div className="text-center mt-7">
-            <button className="rounded text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-3 py-2 text-center mx-auto font-semibold">
-              See All Jobs
-            </button>
-          </div>
+          {!showAll && (
+            <div className="text-center mt-7">
+              <button
+                onClick={handleShowAll}
+                className="rounded text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-3 py-2 text-center mx-auto font-semibold"
+              >
+                See All Jobs
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
