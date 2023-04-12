@@ -28,7 +28,7 @@ const Home = () => {
     });
     setShowAll(true);
   };
-  const catagory = useLoaderData();
+    const catagory = useLoaderData();
   return (
     <div>
       <div className="md:flex justify-center items-center my-container mx-auto">

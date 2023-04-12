@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FeaturedJob = ({ feature }) => {
   const {
@@ -8,7 +9,8 @@ const FeaturedJob = ({ feature }) => {
     remoteOrOnsite,
     location,
     salary,
-    fulltimeOrPartTime,
+      fulltimeOrPartTime,
+    id
   } = feature;
 
   return (
@@ -36,9 +38,9 @@ const FeaturedJob = ({ feature }) => {
             <small>{salary}</small>
           </div>
         </div>
-        <button className="rounded text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-2 py-1 font-semibold">
+        <Link to={`/job-details/${id}`}><button className="rounded text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-2 py-1 font-semibold">
           View Details
-        </button>
+        </button></Link>
       </div>
     </div>
   );
