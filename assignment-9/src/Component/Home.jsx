@@ -38,9 +38,12 @@ const Home = () => {
             Closer To Your <br />
             <span className="text-purple-500">Dream Job</span>
           </h1>
+                  <div className="text-center md:text-left">
+                  <button className="btn-primary">Get Started</button>
+          </div>
         </div>
         <div className="md:w-1/2">
-          <img className="w-2/3 mb-12 mx-auto" src="man.png" alt="" />
+          <img className="w-full h-auto mb-12 mx-auto" src="man.png" alt="" />
         </div>
       </div>
       <div>
