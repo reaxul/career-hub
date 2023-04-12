@@ -7,6 +7,7 @@ const AppliedJob = () => {
   const appliedId = appliedJobId();
 
   const allJobs = useLoaderData();
+  console.log(allJobs);
   const [job, setJobs] = useState(allJobs);
   const remoteHandler = () => {
     const remoteJob = allJobs.filter(job => job.remoteOrOnsite === 'Remote');
