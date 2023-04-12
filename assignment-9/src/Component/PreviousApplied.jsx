@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const PreviousApplied = ({ cart }) => {
+    const navigate=useNavigate()
   const {
     companyLogo,
     jobTitle,
@@ -49,7 +51,7 @@ const PreviousApplied = ({ cart }) => {
         </div>
       </div>
     </div>
-    <button className="rounded h-8 text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-2 py-1 font-semibold">
+    <button onClick={()=>{navigate(`/job-details/${id}`)}} className="rounded h-8 text-white bg-gradient-to-r from-blue-500 to-purple-500 text-xs px-2 py-1 font-semibold">
       View Details
     </button>
   </div>
