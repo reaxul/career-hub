@@ -4,12 +4,13 @@ import { useLoaderData } from "react-router-dom";
 import PreviousApplied from "./Component/PreviousApplied";
 
 const AppliedJob = () => {
-  let carts = [];
   const appliedId = appliedJobId();
+  console.log(appliedId);
   const allJobs = useLoaderData();
-  for (const storedId of appliedId) {
-    carts.push(allJobs.find((job) => job.id == storedId));
-  }
+  console.log(allJobs);
+  let carts = allJobs.filter(obj => appliedId.includes(obj.id));
+  console.log(carts);
+  
   return (
     <div className="my-container">
     
